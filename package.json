@@ -31,6 +31,7 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.15",
     "nonce": "^1.0.4",
+    "request-promise": "^4.2.6",
     "shopify-api-node": "^3.8.2"
   },
   "engines": {
