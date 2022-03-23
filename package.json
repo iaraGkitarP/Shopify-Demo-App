@@ -1,4 +1,28 @@
 {
+  "name": "shopifydemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "serve": "node index.js",
+    "start": "node index.js",
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratikGarai/Shopify-Demo-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PratikGarai/Shopify-Demo-App/issues"
+  },
+  "homepage": "https://github.com/PratikGarai/Shopify-Demo-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
     "body-parser": "^1.19.2",
     "cookie": "^0.4.2",
@@ -8,5 +32,8 @@
     "nodemon": "^2.0.15",
     "nonce": "^1.0.4",
     "shopify-api-node": "^3.8.2"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
