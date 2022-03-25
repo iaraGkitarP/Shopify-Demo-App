@@ -12,12 +12,23 @@ const Navbar = () => {
             onBottomPassed={() => setFixed(true)}
             onBottomPassedReverse={() => setFixed(false)}
         >
-            <Segment>
-                <Menu>
+            <Segment
+                inverted
+                textAlign="center"
+                style={{
+                    minHeight : 50,
+                    padding : '1em 2em'
+                }}
+            >
+                <Menu
+                    fixed={fixed? "top" : null}
+                    inverted={!fixed}
+                    secondary={!fixed}
+                    size={'medium'}
+                >
                     <Container>
-                        <Link href="/">
-                            Home
-                        </Link>
+                        <Link href="/">Home</Link>
+                        <Link href="/about">About Us</Link>
                     </Container>
                 </Menu>
             </Segment>
